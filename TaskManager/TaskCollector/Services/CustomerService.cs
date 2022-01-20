@@ -10,7 +10,7 @@ namespace TaskCollector.Services
 {
     public class CustomerService
     {
-        private readonly string _connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\LEXICON\Grupparbete\Exercise5-main\TaskManager\TaskCollector\Data\TaskSQLDB.mdf;Integrated Security=True";
+        private readonly string _connectionstring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=S:\TaskManager\TaskCollector\Data\TaskSQLDB.mdf;Integrated Security=True;Integrated Security=True";
 
         public void CreateCustomer(Customer customer)
         {
