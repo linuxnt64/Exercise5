@@ -454,23 +454,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\staff\\.nuget\\packages\\": {},
+    "C:\\Users\\Fuzzy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C-Sharp-fundamentals\\cs\\Exercise5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
+      "projectUniqueName": "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
       "projectName": "TaskCollector",
-      "projectPath": "C:\\C-Sharp-fundamentals\\cs\\Exercise5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
-      "packagesPath": "C:\\Users\\staff\\.nuget\\packages\\",
-      "outputPath": "C:\\C-Sharp-fundamentals\\cs\\Exercise5\\TaskManager\\TaskCollector\\obj\\",
+      "projectPath": "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
+      "packagesPath": "C:\\Users\\Fuzzy\\.nuget\\packages\\",
+      "outputPath": "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\staff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fuzzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

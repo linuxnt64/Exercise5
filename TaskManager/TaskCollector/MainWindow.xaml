@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskCollector"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Bisque">
+        Title="MainWindow" Height="650" Width="800" Background="Bisque">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -19,6 +19,9 @@
             <RowDefinition  Height="auto"/>
             <RowDefinition  Height="auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition  Height="auto"/>
+            <RowDefinition  Height="auto"/>
+            <RowDefinition  Height="auto"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="0" Margin="5">
             <TextBlock Text="Namn:" />
@@ -41,28 +44,87 @@
             <TextBox x:Name="tbAddress" Padding="5" TabIndex="4" />
         </StackPanel>
         <Button x:Name="btnAddCustomer" Grid.Row="2" Grid.Column="0" Content="Lägg till kund" Margin="5" Padding="5" Click="btnAddCustomer_Click" Cursor="Cross"/>
-            <TextBlock Text="Kundlista:" Grid.Row="3" Grid.ColumnSpan="4" Margin="5" />
-        <ListView x:Name="lvCustomerList" HorizontalContentAlignment="Stretch" DataContext="TaskCollector.Models.Customer" Padding="5" TabIndex="4" Grid.Row="4" Grid.ColumnSpan="4" Margin="5" SelectionChanged="lvCustomerList_SelectionChanged">
+        <TextBlock Text="Kundlista:" Grid.Row="3" Grid.ColumnSpan="2" Margin="5" />
+        <TextBlock Text="Ärendelista:" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Margin="5" />
+        <ListView x:Name="lvCustomerList"  HorizontalContentAlignment="Stretch" DataContext="TaskCollector.Models.Customer" Padding="5" Grid.Row="4" Grid.ColumnSpan="2" Margin="5" SelectionChanged="lvCustomerList_SelectionChanged">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Margin="5">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" Text="{Binding Id}"/>
-                        <TextBlock Grid.Column="1" Text="{Binding Name}"/>
-                        <TextBlock Grid.Column="2" Text="{Binding Phone}"/>
-                        <TextBlock Grid.Column="3" Text="{Binding Mail}"/>
-                        <TextBlock Grid.Column="4" Text="{Binding Company}"/>
-                        <TextBlock Grid.Column="5" Text="{Binding Address}"/>
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  Width="20"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{Binding Id}"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Name}"/>
+                            <TextBlock Grid.Column="2" Text="{Binding Phone}"/>
+                            <TextBlock Grid.Column="3" Text="{Binding Mail}"/>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{Binding Company}"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Address}"/>
+                        </Grid>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <ListView x:Name="lvTaskList"  HorizontalContentAlignment="Stretch" DataContext="TaskCollector.Models.Task" Padding="5" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Margin="5" SelectionChanged="lvCustomerList_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  Width="20"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{Binding Id}"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Description}"/>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="20"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{Binding Category}"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Status}"/>
+                            <TextBlock Grid.Column="2" Text="{Binding CustomerID}"/>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="btnAddTask" Grid.Row="5" Grid.Column="2" Content="Lägg till ärende" Margin="5" Padding="5" Click="btnAddTask_Click" Cursor="Cross"/>
+        <Button x:Name="btnUpdateTask" Grid.Row="5" Grid.Column="3" Content="Ändra ärende" Margin="5" Padding="5" Click="btnUpdateTask_Click" Cursor="Cross"/>
+        <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" Margin="5">
+            <TextBlock Text="Description:" />
+            <TextBox x:Name="tbDescription" Padding="5" TabIndex="10" />
+        </StackPanel>
+        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Margin="5">
+            <TextBlock Text="Category:" />
+            <TextBox x:Name="tbCategory" Padding="5" TabIndex="11" />
+        </StackPanel>
+        <StackPanel Grid.Row="7" Grid.Column="2" Margin="5">
+            <TextBlock Text="Status:" />
+            <TextBox x:Name="tbStatus" Padding="5" TabIndex="0" />
+        </StackPanel>
+        <StackPanel Grid.Row="7" Grid.Column="3" Margin="5">
+            <TextBlock Text="CustomerID:" />
+            <TextBox x:Name="tbCustomerID" Padding="5" TabIndex="0" />
+        </StackPanel>
     </Grid>
 </Window>

@@ -54,3 +54,31 @@ C:\LEXICON\Grupparbete\Exercise5-main\TaskManager\TaskCollector\obj\Debug\net6.0
 C:\LEXICON\Grupparbete\Exercise5-main\TaskManager\TaskCollector\obj\Debug\net6.0-windows\ref\TaskCollector.dll
 C:\LEXICON\Grupparbete\Exercise5-main\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.pdb
 C:\LEXICON\Grupparbete\Exercise5-main\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.genruntimeconfig.cache
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.exe
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.deps.json
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.runtimeconfig.json
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\ref\TaskCollector.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.pdb
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.csproj.AssemblyReference.cache
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\App.g.cs
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector_MarkupCompile.cache
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector_MarkupCompile.lref
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.g.resources
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.AssemblyInfoInputs.cache
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.AssemblyInfo.cs
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.csproj.CoreCompileInputs.cache
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.csproj.CopyComplete
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\ref\TaskCollector.dll
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.pdb
+D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.genruntimeconfig.cache

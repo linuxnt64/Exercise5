@@ -50,7 +50,17 @@ namespace TaskCollector
 
         private void lvCustomerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            
+        }
 
+        private void btnAddTask_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnUpdateTask_Click(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 }
