@@ -82,3 +82,31 @@ D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debu
 D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\ref\TaskCollector.dll
 D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.pdb
 D:\Fuzzy\Documents\_Lexicon_\.net DF\Övning5\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.genruntimeconfig.cache
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.exe
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.deps.json
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.runtimeconfig.json
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\ref\TaskCollector.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\TaskCollector.pdb
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.csproj.AssemblyReference.cache
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\App.g.cs
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector_MarkupCompile.cache
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector_MarkupCompile.lref
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\MainWindow.baml
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.g.resources
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.GeneratedMSBuildEditorConfig.editorconfig
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.AssemblyInfoInputs.cache
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.AssemblyInfo.cs
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.csproj.CoreCompileInputs.cache
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.csproj.CopyComplete
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\ref\TaskCollector.dll
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.pdb
+C:\LEXICON\Grupparbete\Exercise5-master\TaskManager\TaskCollector\obj\Debug\net6.0-windows\TaskCollector.genruntimeconfig.cache

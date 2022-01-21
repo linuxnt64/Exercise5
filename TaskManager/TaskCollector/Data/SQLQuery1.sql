@@ -34,4 +34,4 @@ DECLARE @TaskDescription nVarChar(max) SET @TaskDescription = 'Beskrivning av ä
 IF NOT EXISTS (SELECT CustomerId, Category FROM TASK WHERE Id = @TaskCustomerId AND Category = @TaskCategory) INSERT INTO TASK (Description, Category, Status, CustomerId) VALUES (@TaskDescription , @TaskCategory , @TaskStatus , @TaskCustomerId)
 
 SELECT * from CUSTOMER
-SELECT * from  TASK
+SELECT * from TASK

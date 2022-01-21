@@ -25,14 +25,32 @@ namespace TaskCollector
         public Customer customer = new Customer();
         public CustomerService customerService = new CustomerService();
         public List<Customer> customerList = new List<Customer>();
+        public Models.Task task = new();
+        public TaskService taskService = new();
+        public List<Models.Task> taskList = new();
 
         public MainWindow()
         {
             InitializeComponent();
+            ShowCustomerList();
+            ShowTaskList();
+        }
+
+        private void ShowCustomerList()
+        {
             customerList = customerService.GetCustomerToListFromDB();
             foreach (var c in customerList)
             {
                 lvCustomerList.Items.Add(c);
+            }
+        }
+
+        private void ShowTaskList()
+        {
+            taskList = taskService.GetTaskToListFromDB();
+            foreach (var t in taskList)
+            {
+                lvTaskList.Items.Add(t);
             }
         }
 
@@ -52,10 +70,17 @@ namespace TaskCollector
         {
             
         }
+        // (Id, Description, Category, Status, CustomerID)
 
         private void btnAddTask_Click(object sender, RoutedEventArgs e)
         {
+            task.Description = tbDescription.Text;
+            task.Category = tbCategory.Text;
+            task.Status = tbStatus.Text;
+            task.CustomerID = int.Parse(tbCustomerID.Text);
 
+            taskService.CreateTask(task);
+            lvTaskList.Items.Add(task);
         }
 
         private void btnUpdateTask_Click(object sender, RoutedEventArgs e)

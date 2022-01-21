@@ -43,7 +43,7 @@
             <TextBlock Text="Adress:" />
             <TextBox x:Name="tbAddress" Padding="5" TabIndex="4" />
         </StackPanel>
-        <Button x:Name="btnAddCustomer" Grid.Row="2" Grid.Column="0" Content="Lägg till kund" Margin="5" Padding="5" Click="btnAddCustomer_Click" Cursor="Cross"/>
+        <Button x:Name="btnAddCustomer" Grid.Row="2" Grid.Column="0" Content="Lägg till kund" Margin="5" Padding="5" TabIndex="5" Click="btnAddCustomer_Click" Cursor="Hand"/>
         <TextBlock Text="Kundlista:" Grid.Row="3" Grid.ColumnSpan="2" Margin="5" />
         <TextBlock Text="Ärendelista:" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Margin="5" />
         <ListView x:Name="lvCustomerList"  HorizontalContentAlignment="Stretch" DataContext="TaskCollector.Models.Customer" Padding="5" Grid.Row="4" Grid.ColumnSpan="2" Margin="5" SelectionChanged="lvCustomerList_SelectionChanged">
@@ -108,8 +108,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="btnAddTask" Grid.Row="5" Grid.Column="2" Content="Lägg till ärende" Margin="5" Padding="5" Click="btnAddTask_Click" Cursor="Cross"/>
-        <Button x:Name="btnUpdateTask" Grid.Row="5" Grid.Column="3" Content="Ändra ärende" Margin="5" Padding="5" Click="btnUpdateTask_Click" Cursor="Cross"/>
+        <Button x:Name="btnAddTask" Grid.Row="5" Grid.Column="2" Content="Lägg till ärende" Margin="5" Padding="5" TabIndex="14" Click="btnAddTask_Click" Cursor="Hand"/>
+        <Button x:Name="btnUpdateTask" Grid.Row="5" Grid.Column="3" Content="Ändra ärende" Margin="5" Padding="5" TabIndex="15" Click="btnUpdateTask_Click" Cursor="Hand"/>
         <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" Margin="5">
             <TextBlock Text="Description:" />
             <TextBox x:Name="tbDescription" Padding="5" TabIndex="10" />
@@ -120,11 +120,11 @@
         </StackPanel>
         <StackPanel Grid.Row="7" Grid.Column="2" Margin="5">
             <TextBlock Text="Status:" />
-            <TextBox x:Name="tbStatus" Padding="5" TabIndex="0" />
+            <TextBox x:Name="tbStatus" Padding="5" TabIndex="12" />
         </StackPanel>
         <StackPanel Grid.Row="7" Grid.Column="3" Margin="5">
             <TextBlock Text="CustomerID:" />
-            <TextBox x:Name="tbCustomerID" Padding="5" TabIndex="0" />
+            <TextBox x:Name="tbCustomerID" Padding="5" TabIndex="13" />
         </StackPanel>
     </Grid>
 </Window>

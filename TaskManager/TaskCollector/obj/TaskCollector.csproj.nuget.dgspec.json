@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\TaskCollector.csproj": {}
+    "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\TaskCollector.csproj": {}
   },
   "projects": {
-    "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\TaskCollector.csproj": {
+    "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\TaskCollector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
+        "projectUniqueName": "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\TaskCollector.csproj",
         "projectName": "TaskCollector",
-        "projectPath": "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
-        "packagesPath": "C:\\Users\\Fuzzy\\.nuget\\packages\\",
-        "outputPath": "D:\\Fuzzy\\Documents\\_Lexicon_\\.net DF\\Övning5\\TaskManager\\TaskCollector\\obj\\",
+        "projectPath": "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\TaskCollector.csproj",
+        "packagesPath": "C:\\Users\\out_o\\.nuget\\packages\\",
+        "outputPath": "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuzzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\out_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
