@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TaskCollector.Models;
 
+
+
 namespace TaskCollector.Services
 {
     public class TaskService
@@ -17,7 +19,8 @@ namespace TaskCollector.Services
             using (SqlConnection conn = new SqlConnection(_connectionstring))
             {
                 conn.Open();
-                using (SqlCommand cmd = new SqlCommand("IF NOT EXISTS (SELECT Category FROM TASK WHERE Category = @TaskCategory) INSERT INTO TASK (Description, Category, Status, CustomerId) VALUES (@TaskDescription , @TaskCategory , @TaskStatus , @TaskCustomerId)", conn))
+                //               using (SqlCommand cmd = new SqlCommand("IF NOT EXISTS (SELECT Category FROM TASK WHERE Category = @TaskCategory) INSERT INTO TASK (Description, Category, Status, CustomerId) VALUES (@TaskDescription , @TaskCategory , @TaskStatus , @TaskCustomerId)", conn))
+                using (SqlCommand cmd = new SqlCommand("INSERT INTO TASK (Description, Category, Status, CustomerId) VALUES (@TaskDescription , @TaskCategory , @TaskStatus , @TaskCustomerId)", conn))
                 {
                     cmd.Parameters.AddWithValue("@TaskDescription", task.Description);
                     cmd.Parameters.AddWithValue("@TaskCategory", task.Category);
@@ -26,8 +29,22 @@ namespace TaskCollector.Services
                     cmd.ExecuteNonQuery();
                 }
             }
-        }
 
+        }
+        internal void UpdateTask(Models.Task task)
+        {
+            List<Models.Task> taskList = new List<Models.Task>();
+            using (SqlConnection conn = new SqlConnection(_connectionstring))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand("UPDATE TASK SET Status = @TaskStatus WHERE Id = @Id", conn))
+                {
+                    cmd.Parameters.AddWithValue("@TaskStatus", task.Status);
+                    cmd.Parameters.AddWithValue("@Id", task.Id);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
         public List<Models.Task> GetTaskToListFromDB()
         {
             List<Models.Task> taskList = new List<Models.Task>();

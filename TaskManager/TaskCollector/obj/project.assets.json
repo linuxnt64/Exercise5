@@ -454,23 +454,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\out_o\\.nuget\\packages\\": {},
+    "C:\\Users\\staff\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\TaskCollector.csproj",
+      "projectUniqueName": "C:\\C-Sharp-fundamentals\\cs\\Exercise5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
       "projectName": "TaskCollector",
-      "projectPath": "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\TaskCollector.csproj",
-      "packagesPath": "C:\\Users\\out_o\\.nuget\\packages\\",
-      "outputPath": "C:\\LEXICON\\Grupparbete\\Exercise5-master\\TaskManager\\TaskCollector\\obj\\",
+      "projectPath": "C:\\C-Sharp-fundamentals\\cs\\Exercise5\\TaskManager\\TaskCollector\\TaskCollector.csproj",
+      "packagesPath": "C:\\Users\\staff\\.nuget\\packages\\",
+      "outputPath": "C:\\C-Sharp-fundamentals\\cs\\Exercise5\\TaskManager\\TaskCollector\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\out_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\staff\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

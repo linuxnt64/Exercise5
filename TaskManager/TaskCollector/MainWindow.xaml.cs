@@ -39,6 +39,7 @@ namespace TaskCollector
         private void ShowCustomerList()
         {
             customerList = customerService.GetCustomerToListFromDB();
+            lvCustomerList.Items.Clear();
             foreach (var c in customerList)
             {
                 lvCustomerList.Items.Add(c);
@@ -48,44 +49,73 @@ namespace TaskCollector
         private void ShowTaskList()
         {
             taskList = taskService.GetTaskToListFromDB();
+            lvTaskList.Items.Clear();
             foreach (var t in taskList)
             {
                 lvTaskList.Items.Add(t);
             }
         }
-
+        
         private void btnAddCustomer_Click(object sender, RoutedEventArgs e)
         {
-            customer.Name = tbName.Text;                    
-            customer.Phone = tbPhone.Text;                             
+            customer.Name = tbName.Text;
+            customer.Phone = tbPhone.Text;
             customer.Mail = tbMail.Text;
             customer.Company = tbCompany.Text;
             customer.Address = tbAddress.Text;
 
             customerService.CreateCustomer(customer);
-            lvCustomerList.Items.Add(customer);
+            ShowCustomerList();
         }
 
         private void lvCustomerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+
         }
         // (Id, Description, Category, Status, CustomerID)
 
         private void btnAddTask_Click(object sender, RoutedEventArgs e)
         {
+            WriteTaskToDB();
+            taskService.CreateTask(task);
+            ShowTaskList();
+            ClearTaskForm();
+        }
+
+
+        private void btnUpdateTask_Click(object sender, RoutedEventArgs e)
+        {
+            WriteTaskToDB();
+            taskService.UpdateTask(task);
+            ShowTaskList();
+            ClearTaskForm();
+        }
+
+        private void ClearTaskForm()
+        {
+            tbDescription.Clear();
+            tbCategory.Clear();
+            tbStatus.Clear();
+            tbCustomerID.Clear();
+        }
+
+        private void WriteTaskToDB()
+        {
             task.Description = tbDescription.Text;
             task.Category = tbCategory.Text;
             task.Status = tbStatus.Text;
             task.CustomerID = int.Parse(tbCustomerID.Text);
-
-            taskService.CreateTask(task);
-            lvTaskList.Items.Add(task);
         }
 
-        private void btnUpdateTask_Click(object sender, RoutedEventArgs e)
+        private void lvTaskList_MouseUp(object sender, MouseButtonEventArgs e)
         {
-           
+            var selectedTask = lvTaskList.SelectedIndex;
+            task.Id = taskList[selectedTask].Id;                        // Behövs för att update DB (btnUpdateTask_Click) ska fungera
+            tbDescription.Text = taskList[selectedTask].Description;
+            tbCategory.Text = taskList[selectedTask].Category;
+            tbStatus.Text = taskList[selectedTask].Status;
+            tbCustomerID.Text = taskList[selectedTask].CustomerID.ToString();
+            lvCustomerList.SelectedIndex = taskList[selectedTask].CustomerID-1;
         }
     }
 }
